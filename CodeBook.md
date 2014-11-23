@@ -96,7 +96,7 @@ In the raw data set, all features were already normalized and bounded within [-1
 This was done by the process that created the raw dataset. That process is out of scope of this run_analysis.R program. However, it is worthwile to note this step, as it delivers negative standard deviations. Which  would cause someone to frown its eyesbrows.
 There are negative standard deviations in the raw data. Which is a result of normalizing and mapping data from a bounded positive domain, say [S1,S2], where S1 and S2 are both positive, to the domain [-1,1]. So, this is what is to be expected.
 
-The description below is for a large part a copy of the file features_info.txt. For matter of completeness, it is also included in this codebook.
+The description below is for a large part a copy of the file features_info.txt which is part of the dataset <a href=https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip</a>. For matter of completeness, this information is also included in this codebook.
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
